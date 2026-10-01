@@ -15,6 +15,7 @@ public class Barge extends Ship {
         super(Barge.NAME, bearing, pos);
         getPositions().add(new Position(pos.getRow(), pos.getColumn()));
     }
+ 
 
     @Override
     public Integer getSize() {
