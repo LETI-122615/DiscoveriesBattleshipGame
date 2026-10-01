@@ -30,11 +30,14 @@ public class Game implements IGame {
         this.fleet = fleet;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IGame#fire(battleship.IPosition)
-     */
+
+    /**
+ * Gere a logica principal e o ciclo de vida do jogo Batalha Naval dos Descobrimentos.
+ * Controla os turnos dos jogadores, a execucao das rajadas de tiros e a verificacao de condicao de vitoria.
+ * 
+ * @author Chaves
+ * @version 1.0
+ */
     @Override
     public IShip fire(IPosition pos) {
         if (!validShot(pos))
