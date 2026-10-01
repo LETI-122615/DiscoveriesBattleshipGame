@@ -15,6 +15,13 @@ public class Barge extends Ship {
         super(Barge.NAME, bearing, pos);
         getPositions().add(new Position(pos.getRow(), pos.getColumn()));
     }
+    /**
+ * Representa uma coordenada ou disparo na grelha quadriculada de jogo.
+ * Guarda a posicao (linha e coluna) e o estado do tiro no tabuleiro.
+ * 
+ * @author Goncalo Goncalves
+ * @version 1.0
+ */
 
     @Override
     public Integer getSize() {
