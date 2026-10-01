@@ -29,13 +29,7 @@ public class Carrack extends Ship {
         }
     }
 
-    /**
- * Representa a grelha e o estado do jogo da Batalha Naval dos Descobrimentos.
- * Gere o posicionamento das embarcacoes e a validacao dos tiros efetuados.
- * 
- * @author Chaves
- * @version 1.0
- */
+
     @Override
     public Integer getSize() {
         return Carrack.SIZE;
