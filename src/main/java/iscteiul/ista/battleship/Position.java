@@ -5,6 +5,13 @@ package iscteiul.ista.battleship;
 
 import java.util.Objects;
 
+/**
+ * Representa uma coordenada (linha e coluna) na grelha quadriculada do tabuleiro de jogo.
+ * Utilizada para localizar pecas de navios e mapear disparos no mar.
+ * 
+ * @author Goncalo Goncalves
+ * @version 1.0
+ */
 public class Position implements IPosition {
     private int row;
     private int column;
