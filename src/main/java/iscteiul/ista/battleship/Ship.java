@@ -67,11 +67,13 @@ public abstract class Ship implements IShip {
         positions = new ArrayList<>();
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IShip#getCategory()
-     */
+   /**
+ * Modela uma embarcacao generica da frota dos Descobrimentos.
+ * Define dimensoes, posicoes ocupadas no tabuleiro e gere o registo de danos e estado de afundamento.
+ * 
+ * @author Antonio
+ * @version 1.0
+ */
     @Override
     public String getCategory() {
         return category;
