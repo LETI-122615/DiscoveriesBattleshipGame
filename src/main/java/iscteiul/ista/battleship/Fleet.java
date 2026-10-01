@@ -45,11 +45,13 @@ public class Fleet implements IFleet {
         return result;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IFleet#getShipsLike(java.lang.String)
-     */
+ /**
+ * Representa a frota de embarcacoes de um jogador no jogo Batalha Naval.
+ * Responsavel pelo conjunto de navios (Galeao, Fragata, Naus, Caravelas e Barcas) e validacao da sua disposicao.
+ * 
+ * @author Miguel
+ * @version 1.0
+ */
     @Override
     public List<IShip> getShipsLike(String category) {
         List<IShip> shipsLike = new ArrayList<>();
