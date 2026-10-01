@@ -41,7 +41,7 @@
 
 ## Contexto Histórico das Embarcações
 
-Durante a Era dos Descobrimentos, Portugal desenvolveu e aperfeiçoou vários tipos de embarcações adaptadas à navegação oceânica e à defesa militar[cite: 2, 3]:
+Durante a Era dos Descobrimentos, Portugal desenvolveu e aperfeiçoou vários tipos de embarcações adaptadas à navegação oceânica e à defesa militar:
 
 - **[Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o):** Navio de grande porte fortemente armado com peças de artilharia, utilizado para proteção de rotas comerciais e combate militar.
 - **[Fragata](https://pt.wikipedia.org/wiki/Fragata):** Embarcação rápida e manobrável, com grande poder de fogo.
