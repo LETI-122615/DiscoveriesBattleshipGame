@@ -48,3 +48,15 @@ Durante a Era dos Descobrimentos, Portugal desenvolveu e aperfeiçoou vários ti
 - **[Nau](https://pt.wikipedia.org/wiki/Nau):** Embarcação de grande tonelagem com castelos à proa e à popa, ideal para longas viagens de exploração e transporte de carga.
 - **[Caravela](https://pt.wikipedia.org/wiki/Caravela):** Navio rápido com velas latinas (triangulares) que permitia bolinar (navegar contra o vento), fundamental na exploração da costa africana.
 - **[Barca](https://pt.wikipedia.org/wiki/Barca):** Embarcação costeira menor de fundo chato e mastreação simples, utilizada em viagens preliminares e apoio.
+
+
+## Resposta à alínea C. da parte 2 - Comparação Crítica 
+
+### Quais as diferenças entre trabalhar via web e via IDE?
+* **Ambiente e Execução:** O IDE opera localmente com compilador (JDK), ferramentas de construção e debugger, permitindo executar e testar código; a interface web é um editor remoto que não compila nem executa testes locais.
+* **Ferramentas de Desenvolvimento:** O IDE fornece autocompletação inteligente, refatoração de código, deteção de erros de sintaxe em tempo real e geração de documentação (Javadoc); a web oferece apenas realce de sintaxe básico.
+* **Controlo de Versões (Git):** O IDE permite gerir detalhadamente o repositório local (staging area, histórico local, resolução visual de conflitos e trabalho offline); a web regista commits diretamente no repositório remoto sem ciclo de preparação local.
+
+### Em que situações é preferível cada abordagem?
+* **Preferível via Web:** Na edição rápida de documentação simples (como ficheiros README.md em Markdown), pequenas correções pontuais de texto, gestão de requisitos (Issues e Scrum Backlog) e revisão ou aprovação de Pull Requests.
+* **Preferível via IDE:** Na escrita e desenvolvimento de código, criação de novas funcionalidades, testes unitários, depuração de erros (debugging) e resolução de conflitos complexos de integração (merge conflicts).
