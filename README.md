@@ -60,3 +60,16 @@ Durante a Era dos Descobrimentos, Portugal desenvolveu e aperfeiçoou vários ti
 ### Em que situações é preferível cada abordagem?
 * **Preferível via Web:** Na edição rápida de documentação simples (como ficheiros README.md em Markdown), pequenas correções pontuais de texto, gestão de requisitos (Issues e Scrum Backlog) e revisão ou aprovação de Pull Requests.
 * **Preferível via IDE:** Na escrita e desenvolvimento de código, criação de novas funcionalidades, testes unitários, depuração de erros (debugging) e resolução de conflitos complexos de integração (merge conflicts).
+
+
+## Modelos de Branching: Git Flow vs. GitHub Flow
+
+* **GitHub Flow:**
+  * **Estrutura:** Centrado num único ramo principal permanente (`main`).
+  * **Ciclo:** Para qualquer tarefa, cria-se um ramo descritivo a partir do `main`, realizam-se commits regulares, abre-se um Pull Request para revisão e, após aprovação, o ramo é fundido com o `main`.
+  * **Aplicação:** Ideal para equipas ágeis e fluxos de integração contínua (CI/CD), sendo o modelo adotado nesta ficha laboratorial.
+
+* **Git Flow:**
+  * **Estrutura:** Utiliza dois ramos permanentes de longa duração (`main` para versões de produção e `develop` para integração) e ramos auxiliares temporários (`feature/*`, `release/*` e `hotfix/*`).
+  * **Ciclo:** Novas funcionalidades partem do `develop`; para lançar uma versão, cria-se um ramo `release` para validação e testes finais; o merge é feito em simultâneo no `main` (onde se cria a tag) e no `develop`.
+  * **Aplicação:** Adequado para projetos com versões periódicas e necessidade de suporte formal a múltiplos lançamentos em paralelo.
